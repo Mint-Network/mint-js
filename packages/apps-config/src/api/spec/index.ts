@@ -25,6 +25,7 @@ import centrifugeChain from './centrifuge-chain';
 import chainx from './chainx';
 import clover from './clover';
 import cloverRococo from './clover-rococo';
+import codex from './moonbeam';
 import coinversation from './coinversation';
 import competitorsClub from './competitors-club';
 import crab from './crab';
@@ -158,6 +159,7 @@ const spec: Record<string, OverrideBundleDefinition> = {
   'chainx-parachain': chainx,
   clover,
   'clover-rococo': cloverRococo,
+  codex: codex,
   coinversation,
   'competitors-club': competitorsClub,
   contextfree: automata,
